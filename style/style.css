@@ -8,7 +8,7 @@ font-family: 'Work Sans', sans-serif;
 header{
     max-width:1450px;
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 50px 130px;
     align-items: center;
 }
 
@@ -24,7 +24,6 @@ nav ul{
 }
 nav li{
     list-style: none;
-    text-align: center;
     font-family: Work Sans;
     font-size: 1rem;
     font-weight: 500;
@@ -40,8 +39,7 @@ nav a{
 
 .nav-heading{
     color: #131313;
-    text-align: center;
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: normal;
 }
@@ -56,7 +54,7 @@ nav a{
 
 .banner-title{
     font-size: 4rem;
-    color: var(--Dark-01, #131313);
+    color: #131313;
     font-weight: 700;
     line-height: normal;
 }
@@ -82,6 +80,45 @@ nav a{
     width: 100%;
 
 }
+
+/* __main-section-style___ */
+
+.teams-container{
+    max-width: 1440px ;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 24px;
+
+
+}
+
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.team-title{
+    color: #727272;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.feature{
+    color: #FF900E;
+    font-weight: 700;
+}
+
 /* __responsive-style_ */
 
 @media screen and (max-width:577px) {
